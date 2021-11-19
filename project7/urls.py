@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('jinja_print/',jinja_print,name='jinja_print'),
     path('jinja_operation/',jinja_operation,name='jinja_operation'),
+    path('jinja_ifelif/',jinja_ifelif,name='jinja_ifelif'),
+    path('jinja_nestedif/',jinja_nestedif,name='jinja_nestedif'),
 ]
